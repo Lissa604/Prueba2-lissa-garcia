@@ -1,0 +1,171 @@
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#898989;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+
+
+.catamaran-<uniquifier> {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+	
+	
+	font-size: 14px;
+	
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+
+body {
+    font-family: var;
+    color: var;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.hero {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-family: var;
+    color: var;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    max-width: 100%;
+}
+
+
+.services {
+    background-color: var(--color-fondo-gris);
+    padding: 100px 0;
+}
+
+.section-title {
+    font-family:  "Catamaran VariableFont wght";
+    color: var(--color-titulos);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item i {
+    color: var(--color-iconos);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+.cta {
+    background-image: url("../img/using-touchscreen.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+	height: 500px;
+	padding-bottom: 250px;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+	align-content: center;
+}
+
+.cta h2 {
+    font-family: "Catamaran VariableFont wght";
+    margin-bottom: 10px;
+	font-size: 60px;
+	padding-left: 200px;
+	text-align: center;
+	align-content: center;
+	padding-right: 30px
+	
+}
+
+.cta p{
+	font-size: 25px;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: var;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+
+
+.customers {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.customers-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.customers-logos img {
+    max-width: 190px;
+}
+
+
+
+
+	
+	
+	
